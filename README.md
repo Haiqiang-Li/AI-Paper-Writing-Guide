@@ -16,6 +16,7 @@
 | LaTeX 文件难以维护 | [LaTeX 与排版](docs/latex-and-references.md) | 分章节、可追踪的写作工程 |
 | 准备交稿或内部评审 | [提交前检查表](checklists/submission.md) | 一份逐项核实的稿件 |
 | 收到审稿意见 | [审稿回复方法](docs/rebuttal.md) / [回复模板](templates/rebuttal.md) | 问题、证据、修改位置对应表 |
+| 想在助手中复用写作流程 | [写作 skill 使用指南](docs/skill-usage.md) | 可调用的提纲、改写与审阅流程 |
 
 ## 一条通用工作流
 
@@ -47,6 +48,19 @@
 - 只在本仓库提交通用建议；不要把未公开稿件、私有数据或匿名投稿标识提交到公开 Issues。
 
 本仓库不需要安装软件即可阅读。LaTeX 片段仅作组织方式示范，实际编译环境和宏包由目标会议/期刊模板决定。
+
+## 写作 skill
+
+仓库附带 [ai-paper-writing](skills/ai-paper-writing/SKILL.md)，可用于提纲、正文改写、论证检查和审稿回复。它按已有材料组织主张与证据，保留数字、符号及引用键，并将缺失信息单独列出。
+
+复制到论文项目的 `.agents/skills/ai-paper-writing/` 后，可在 Codex 中调用：
+
+```text
+使用 $ai-paper-writing 审阅我的论文引言，检查问题、缺口与贡献是否连贯。
+只给建议，先不修改文件。
+```
+
+安装步骤、无需安装的用法与更多示例见 [使用指南](docs/skill-usage.md)。
 
 ## 参考与致谢
 
