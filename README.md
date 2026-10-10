@@ -2,9 +2,9 @@
 
 **从研究问题到可检验的论证，再到清晰、可复现的论文。**
 
-面向第一次撰写 AI / 机器学习论文的研究者。这份中文指南提供一条实际可执行的写作路径，以及提纲、实验记录和审稿回复模板。它不是任何会议的官方规范，也不承诺论文录用。
+面向第一次撰写 AI / 机器学习论文的研究者，介绍从研究构思到投稿修订的写作过程，附论文提纲、实验记录和审稿回复模板。具体投稿要求请以目标会议或期刊的官方指南为准。
 
-整理：Haiqiang Li。文档采用通用示例，不包含个人在投工作的名称、方法或实验数据。
+整理：Haiqiang Li。
 
 ## 从这里开始
 
@@ -50,9 +50,9 @@
 
 ## 参考与致谢
 
-主要参考 Ziheng Chen 的 *A Tutorial: Writing, Tools, Papers and Code*（用户提供的 `Tutorial.pdf`，9 页）以及 [hzwer / DingXiaoH 的 WritingAIPaper](https://github.com/hzwer/WritingAIPaper)。本仓库为独立整理与扩展，不是原文翻译或官方衍生版本。
+感谢 Ziheng Chen 的 *A Tutorial: Writing, Tools, Papers and Code*，以及 [hzwer / DingXiaoH 的 WritingAIPaper](https://github.com/hzwer/WritingAIPaper)。两份资料分别对写作工程与论文表达提供了许多有用的建议。
 
-来源对应关系、经验性建议的调整，以及排版资料见 [SOURCES.md](SOURCES.md)。未在本仓库分发原始 PDF 或复制上游仓库正文。
+参考文献、补充排版资料和建议的适用范围见 [SOURCES.md](SOURCES.md)。
 
 ## 贡献与许可
 
